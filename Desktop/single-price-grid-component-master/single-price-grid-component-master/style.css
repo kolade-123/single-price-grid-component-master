@@ -17,7 +17,7 @@ section {
 .container {
     display: grid;
     grid-template-columns: 100%;
-    min-width: 550px;
+    max-width: 1440px;
     border-radius: 8px;
     box-shadow: 0px 0px 14px 1px #0000024;
 }
@@ -81,5 +81,8 @@ section {
     }
     .col-1 {
         grid-area: 1/1/2/3;
+    }
+    .col-3{
+        padding: 0 2em;
     }
 }
